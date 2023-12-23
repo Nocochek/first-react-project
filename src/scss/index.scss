@@ -1,0 +1,35 @@
+.container {
+  margin: 0 auto;
+  width: 1700px;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+.mobila {
+  display: block;
+}
+.desctop {
+  display: none;
+}
+
+@media (max-width: 420px) {
+  .container{
+    width: 450px;
+  }
+  html{
+    overflow-x: hidden ;
+    width: 400px;
+  }
+  body{
+    overflow: hidden;
+  }
+ 
+  .modila {
+    display: none !important;
+  }
+
+  .desctop {
+    display: block;
+  }
+}
